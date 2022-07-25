@@ -9,15 +9,15 @@ const Blogs = () => {
     return (
         <div className="container font-poppins px-2 flex flex-col justify-center items-center lg:mt-16 mt-28">
             <div className="text-center lg:mb-20 mb-14">
-                <legend className="text-4xl font-medium text-center">Lekem's Blogs</legend>
+                <legend className="text-4xl font-medium text-center">Ninette's Blogs</legend>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, aut.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quasi nisi et, necessitatibus fuga omnis.</p>
             </div>
             <div className="grid lg:grid-cols-3 grid-cols-1 gap-8">
                 {state.blogs.map(blog => 
-                    <div key={blog.id} className="w-96 transition ease-in-out delay-120 hover:-translate-y-4 duration-300">
+                    <div key={blog.id} className="lg:w-96 w-full transition ease-in-out delay-120 hover:-translate-y-4 duration-300">
                         <a href="/">
-                            <img src={`images/${blog.src}`} alt={blog.name} className="object-cover h-96" />
+                            <img src={`images/${blog.src}`} alt={blog.name} className="object-cover h-96 lg:w-96 w-full" />
                             <div className="border p-2 bg-gray-100">
                                 <p className="text-xl font-extrabold">{blog.name}</p>
                                 <p className="text-lg font-thin my-3">{blog.description}</p>

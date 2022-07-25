@@ -12,7 +12,7 @@ const Footer = () => {
                 <div>
                     <ul>
                         <li>Contact us</li>
-                        <li className="mt-2">lekemorganics@gmai.com</li>
+                        <li className="mt-2">ninettesorganics@gmai.com</li>
                         <li className="mt-2">+233 20 259 7538</li>
                         <li className="mt-2">Careers</li>
                         <li className="mt-2">Press</li>
@@ -36,7 +36,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="container flex justify-between items-center mt-20">
-                <p>&copy; 2022 Lekem's organics</p>
+                <p>&copy; 2022 Ninette's organics</p>
                 <div className="flex justify-between items-center">
                     <p className="mx-3">Privacy Policy</p>
                     <p className="mx-3">{`Terms & Conditions`}</p>

@@ -7,21 +7,21 @@ const initialState = {
     products: [
         {
             id: 1,
-            name: "Lekem's Raw Shea Butter",
-            src: "shea-butter.jpg",
-            price: "GHS25.00"
+            name: "Ninette's Deep Moisturizer",
+            src: "deep-moisturizer.jpg",
+            price: "GHS55.00"
         },
         {
             id: 2,
-            name: "Lekem's Raw Cinnamon Powder",
-            src: "cinnamon.jpg",
-            price: "GHS35.00"
+            name: "Ninette's Ordinary Collection",
+            src: "ordinary_collection.jpg",
+            price: "GHS75.00"
         },
         {
             id: 3,
-            name: "Lekem's Raw Tumeric Powder",
-            src: "tumeric.jpg",
-            price: "GHS30.00"
+            name: "Ninette's Facial Care Package",
+            src: "facial_package.jpg",
+            price: "GHS100.00"
         }
     ]
     
