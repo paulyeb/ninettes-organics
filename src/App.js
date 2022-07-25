@@ -1,4 +1,5 @@
 import Blogs from './components/Blog';
+// import ClientRemarks from './components/ClientRemarks';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import Products from './components/Products';
@@ -11,6 +12,7 @@ function App() {
         <BlogsProvider>
           <Home />
           <Products />
+          {/* <ClientRemarks /> */}
           <Blogs />
           <Footer />
         </BlogsProvider>

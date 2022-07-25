@@ -3,7 +3,7 @@ import { faLinkedinIn, faTwitter, faInstagram, faFacebookF } from "@fortawesome/
 
 const Footer = () => {
     return (
-        <div className="bg-gray-700 flex-cols justify-between items-between text-gray-200 font-medium text-md py-16">
+        <div className="bg-gray-700 font-poppins flex-cols justify-between items-between text-gray-200 font-medium text-md py-16">
             <div className="container grid sm:grid-cols-2 grid-cols-1 gap-10 lg:grid-cols-4 justify-center items-center">
                 <div>
                     <p>Join Mailing List</p>
@@ -12,7 +12,7 @@ const Footer = () => {
                 <div>
                     <ul>
                         <li>Contact us</li>
-                        <li className="mt-2">wekemorganics@gmai.com</li>
+                        <li className="mt-2">lekemorganics@gmai.com</li>
                         <li className="mt-2">+233 20 259 7538</li>
                         <li className="mt-2">Careers</li>
                         <li className="mt-2">Press</li>
@@ -36,7 +36,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="container flex justify-between items-center mt-20">
-                <p>&copy; 2022 Wekem's organics</p>
+                <p>&copy; 2022 Lekem's organics</p>
                 <div className="flex justify-between items-center">
                     <p className="mx-3">Privacy Policy</p>
                     <p className="mx-3">{`Terms & Conditions`}</p>

@@ -4,7 +4,7 @@ import Button from "./Button";
 
 const Overview = () => {
     return (
-        <div className="container h-full flex justify-between items-center mb-10">
+        <div className="container font-poppins h-full flex justify-between items-center mb-10">
             <div className="bg-gray-50 h-full w-full flex flex-col justify-center items-start">
                 <legend className="lg:text-5xl text-4xl font-medium px-8 my-4">Skincare Made Simple, for your busy life</legend>
 
