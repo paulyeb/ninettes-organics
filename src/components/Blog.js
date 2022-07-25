@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { BlogsContext } from "../store/blogs_context";
-// import Button from "./Button";
+import Button from "./Button";
 
 const Blogs = () => {
     const {state} = useContext(BlogsContext);
@@ -23,7 +23,7 @@ const Blogs = () => {
                                 <p className="text-lg font-thin my-3">{blog.description}</p>
                                 <p>{blog.published_on} - {(blog.comments === "") ? "No Comments" : blog.comments}</p>
                             </div>
-                            {/* <Button className="py-3 px-5">Read More</Button> */}
+                            <Button className="py-3 px-5">Read More</Button>
                         </a>
                     </div>
                 )}
