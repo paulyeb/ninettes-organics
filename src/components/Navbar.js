@@ -8,7 +8,8 @@ const Navbar = () => {
                 {/* <div>
                     Name
                 </div> */}
-                <div className="flex items-center justify-center">
+                <div className="flex items-center justify-center
+                ">
                     <img src="images/logo.png" alt="Lekem's organics" className="object-cover w-10 h-10 lg:w-20 lg:h-20" />
                     <legend className="lg:text-5xl text-2xl font-medium mx-2">Lekem's Organics</legend>
                 </div>
