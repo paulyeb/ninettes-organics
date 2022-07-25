@@ -3,7 +3,7 @@ import { faLinkedinIn, faTwitter, faInstagram, faFacebookF } from "@fortawesome/
 
 const Footer = () => {
     return (
-        <div className="bg-gray-700 font-poppins flex-cols justify-between items-between text-gray-200 font-medium text-md py-16">
+        <div className="bg-gray-700 font-poppins flex-cols justify-between items-between text-gray-200 font-medium text-md mt-20 py-16">
             <div className="container grid sm:grid-cols-2 grid-cols-1 gap-10 lg:grid-cols-4 justify-center items-center">
                 <div>
                     <p>Join Mailing List</p>

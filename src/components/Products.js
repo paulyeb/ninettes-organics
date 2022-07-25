@@ -8,7 +8,7 @@ const Products = () => {
     return (
         <div className="container font-poppins flex flex-col justify-center items-center mt-28"> 
             <div className="text-center lg:mb-20 mb-14">
-                <legend className="text-4xl font-medium">Our Products</legend>
+                <legend className="text-4xl font-medium text-center">Our Products</legend>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, aut.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quasi nisi et, necessitatibus fuga omnis.</p>
             </div>

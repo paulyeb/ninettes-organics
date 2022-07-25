@@ -3,7 +3,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
     return (
-        <div className="lg:py-8 py-7 font-poppins w-full fixed top-0 bg-white">
+        <div className="lg:py-3 py-7 font-poppins w-full fixed top-0 bg-white z-10">
             <div className="container flex justify-between items-center">
                 {/* <div>
                     Name
