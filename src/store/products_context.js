@@ -7,19 +7,19 @@ const initialState = {
     products: [
         {
             id: 1,
-            name: "Shea Butter",
+            name: "Wekem's Raw Shea Butter",
             src: "shea-butter.jpg",
             price: "GHS25.00"
         },
         {
             id: 2,
-            name: "Cinnamon Powder",
+            name: "Wekem's Raw Cinnamon Powder",
             src: "cinnamon.jpg",
             price: "GHS35.00"
         },
         {
             id: 3,
-            name: "Tumeric Powder",
+            name: "Wekem's Raw Tumeric Powder",
             src: "tumeric.jpg",
             price: "GHS30.00"
         }

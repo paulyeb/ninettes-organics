@@ -13,11 +13,11 @@ const initialState = {
         {
             id: 2,
             name: "Women's Health",
-            src: "women's-health.jpg",
+            src: "twins.jpg",
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, at totam, culpa placeat cumque recusandae maiores eveniet cum rem error deserunt libero asperiores reprehenderit unde itaque praesentium nobis commodi iste!!"        },
         {
             id: 3,
-            name: "Girl Talk",
+            name: "Afro Girl Vibes",
             src: "girl_talk.jpg",
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, at totam, culpa placeat cumque recusandae maiores eveniet cum rem error deserunt libero asperiores reprehenderit unde itaque praesentium nobis commodi iste!"
         }
