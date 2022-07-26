@@ -9,7 +9,7 @@ const Blogs = () => {
     return (
         <div className="container font-poppins px-2 flex flex-col justify-center items-center lg:mt-16 mt-28">
             <div className="text-center lg:mb-20 mb-14">
-                <legend className="text-4xl font-medium text-center">Ninette's Blogs</legend>
+                <p className="text-4xl font-medium text-center">Ninette's Blogs</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, aut.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quasi nisi et, necessitatibus fuga omnis.</p>
             </div>
