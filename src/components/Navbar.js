@@ -1,9 +1,20 @@
+import { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
+    const [defaultNavColor, setDefaultNavColor] = useState(false);
+
+    useEffect(() => {
+        window.addEventListener("scroll", () => {
+            if(window.scrollY > 785 && window.scrollY < 1600 ) {
+                setDefaultNavColor(true);
+            } else setDefaultNavColor(false);
+        });
+    }, [])
+
     return (
-        <div className="lg:py-3 py-7 font-poppins w-full fixed top-0 bg-white z-10">
+        <div className={`lg:py-3 py-7 font-poppins w-full fixed top-0 transition ease-in bg-white ${!defaultNavColor ? "bg-white text-gray-800" : "bg-gray-800 text-white"} z-10`}>
             <div className="container flex justify-between items-center">
                 {/* <div>
                     Name
